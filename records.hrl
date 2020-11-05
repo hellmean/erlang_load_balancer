@@ -1,0 +1,2 @@
+-record(provider, {id, is_active=true, is_healthy=false}).
+-record(load_balancer, {load_balancer, get_message_router}).
