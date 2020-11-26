@@ -1,0 +1,15 @@
+{application, erlang_load_balancer,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {erlang_load_balancer_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, [provider, my_debug_provider, my_debug_provider_with_stack, load_balancer, health_checker]},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
